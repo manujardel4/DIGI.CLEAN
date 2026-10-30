@@ -1,0 +1,6 @@
+{
+  "name": "DIGICLEAN - Pressing & Blanchisserie à Domicile",
+  "description": "Application moderne de pressing et blanchisserie avec collecte à domicile, estimation transparente des coûts, suivi en temps réel et gestion des commandes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

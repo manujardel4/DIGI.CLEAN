@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-baloo: 'Baloo 2', system-ui, -apple-system, sans-serif;
+    --font-outfit: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --digi-turquoise: #40e0d0;
+    --digi-orange: #ffa45b;
+  }
+
+  body {
+    font-family: var(--font-outfit);
+    color: #0f172a;
+    background-color: #f8fafc;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, .font-heading, .font-baloo {
+    font-family: var(--font-baloo);
+  }
+}
+
+/* Custom button and utility animations */
+.digi-btn-primary {
+  background-color: #40e0d0;
+  color: #042f2e;
+  font-weight: 700;
+  transition: all 0.15s ease-in-out;
+}
+
+.digi-btn-primary:hover {
+  background-color: #32c4b5;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(64, 224, 208, 0.35);
+}
+
+.digi-btn-primary:active {
+  transform: translateY(0px);
+}
+
+.digi-btn-secondary {
+  background-color: #ffa45b;
+  color: #451a03;
+  font-weight: 700;
+  transition: all 0.15s ease-in-out;
+}
+
+.digi-btn-secondary:hover {
+  background-color: #f89344;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(255, 164, 91, 0.35);
+}
+
+.digi-btn-secondary:active {
+  transform: translateY(0px);
+}

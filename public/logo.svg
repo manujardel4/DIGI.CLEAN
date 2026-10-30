@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <!-- DIGICLEAN Official Logo: 4 circles + Brand Wordmark -->
+  <g transform="translate(50, 160)">
+    <!-- Circle 1: Washing Machine (#ffa45b) -->
+    <g transform="translate(0, 0)">
+      <circle cx="36" cy="36" r="36" fill="#ffa45b" />
+      <!-- Washing Machine Icon -->
+      <g transform="translate(19, 17)" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="2" width="30" height="34" rx="4" fill="none" />
+        <circle cx="17" cy="22" r="8.5" fill="none" />
+        <circle cx="17" cy="22" r="4.5" fill="none" />
+        <circle cx="9" cy="8" r="1.5" fill="#FFFFFF" />
+        <line x1="16" y1="8" x2="28" y2="8" />
+      </g>
+    </g>
+
+    <!-- Circle 2: T-Shirt (#40e0d0) -->
+    <g transform="translate(108, 0)">
+      <circle cx="36" cy="36" r="36" fill="#40e0d0" />
+      <!-- T-Shirt Icon -->
+      <path d="M 23 23 L 31 19 C 32.5 22.5 39.5 22.5 41 19 L 49 23 L 45 32 L 40 30.5 L 40 53 L 32 53 L 32 30.5 L 27 32 Z" fill="#FFFFFF" />
+    </g>
+
+    <!-- Circle 3: Iron (#40e0d0) -->
+    <g transform="translate(216, 0)">
+      <circle cx="36" cy="36" r="36" fill="#40e0d0" />
+      <!-- Iron Icon -->
+      <g fill="#FFFFFF">
+        <path d="M 20 46 C 20 44 22 36 28 32 C 34 28 48 28 52 38 L 52 46 Z" />
+        <path d="M 28 30 C 28 26 31 23 37 23 L 49 23 C 51 23 52 24.5 52 26.5 C 52 28.5 51 30 49 30 L 37 30 C 34 30 31 31 28 33 Z" />
+        <!-- Steam dots -->
+        <circle cx="32" cy="40" r="1.8" fill="#40e0d0" />
+        <circle cx="38" cy="40" r="1.8" fill="#40e0d0" />
+        <circle cx="44" cy="40" r="1.8" fill="#40e0d0" />
+      </g>
+    </g>
+
+    <!-- Circle 4: Clothes Hanger (#ffa45b) -->
+    <g transform="translate(324, 0)">
+      <circle cx="36" cy="36" r="36" fill="#ffa45b" />
+      <!-- Hanger Icon -->
+      <g fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <!-- Hook -->
+        <path d="M 36 28 C 36 24 38.5 20.5 42 21 C 44.5 21.5 46 23.5 45.5 26 C 45 28 42.5 29.5 39.5 30 L 36 31" />
+        <!-- Triangle frame -->
+        <path d="M 36 31 L 18 47 L 54 47 Z" />
+      </g>
+    </g>
+  </g>
+
+  <!-- DIGICLEAN Text (#40e0d0) -->
+  <text x="250" y="305" 
+        font-family="'Baloo 2', system-ui, -apple-system, sans-serif" 
+        font-size="44" 
+        font-weight="800" 
+        letter-spacing="5" 
+        fill="#40e0d0" 
+        text-anchor="middle">DIGICLEAN</text>
+</svg>
